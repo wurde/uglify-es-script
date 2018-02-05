@@ -10,6 +10,16 @@ Changes are categorized as follows:
 * N minor enhancements
 * N bug fixes
 
+## [Unreleased]
+
+* 1 major enhancement:
+
+  * js: add basic implementation
+
+* 1 minor enhancement:
+
+  * deps: add uglify-es
+
 ## 2018-02-05, Version 0.1.0 (unstable)
 
 * 1 minor enhancement:

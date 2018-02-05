@@ -1,13 +1,13 @@
-# db-run-migrations
+# uglify-es-script
 
-Run database schema migrations.
+Minify JavaScript files.
 
 ## Getting started
 
 Add the package to your project using the npm ecosystem:
 
 ```bash
-$ npm install db-run-migrations --save-dev
+$ npm install uglify-es-script --save-dev
 ```
 
 Then setup the npm script via the `package.json` file.
@@ -15,14 +15,14 @@ Then setup the npm script via the `package.json` file.
 ```json
 ./package.json
 "scripts": {
-  "db:migrate": "./node_modules/.bin/db_run_migrations"
+  "uglifyjs": "./node_modules/.bin/uglify_es_script"
 },
 ```
 
 Now run the command:
 
 ```bash
-$ npm run db:migrate
+$ npm run uglifyjs
 ```
 
 ## Changelog

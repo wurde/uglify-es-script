@@ -1,0 +1,45 @@
+{
+  "name": "uglify-es-script",
+  "version": "0.1.0",
+  "description": "Minify javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-colors"
+  },
+  "keywords": [
+    "uglifyjs",
+    "minify",
+    "compress"
+  ],
+  "bin": {
+    "uglify_es_script": "./index.js"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE.txt",
+    "CHANGELOG.md",
+    "index.js",
+    "test.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurde/uglify-es-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wurde/uglify-es-script/issues"
+  },
+  "homepage": "https://github.com/wurde/uglify-es-script#readme",
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "author": "Andy Bettisworth <andy@accreu.com> (https://andybettisworth.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  }
+}

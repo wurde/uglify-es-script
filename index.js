@@ -2,8 +2,6 @@
 
 "use strict"
 
-console.log("Uglifying JavaScript code...\n")
-
 /**
  * Dependencies
  */
@@ -16,10 +14,10 @@ const fs = require("fs")
  * Constants
  */
 
-const base = path.join(__dirname, '../..')
-const js_path = path.join(base, 'app/assets/js')
+const base = path.join(__dirname, "..", "..")
+const js_path = path.join(base, "app", "assets", "js")
 const js_manifest = path.join(js_path, 'manifest.json')
-const output_path = path.join(base, 'public/js/main.min.js')
+const output_path = path.join(base, "public", "js", "main.min.js")
 
 /**
  * Check for manifest.js
@@ -65,5 +63,5 @@ let result = UglifyJS.minify(code)
 if (result.error === undefined) {
   fs.writeFileSync(output_path, result.code, "utf8")
 } else {
-  console.error('uglifyjs', result.error)
+  console.error(result.error)
 }
